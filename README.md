@@ -22,7 +22,18 @@ Calculating eigendecomposition on the covariance matrix in PCA helps to find the
 
 We sort the principal components in PCA based on their corresponding eigenvalues to prioritize the components that capture the most variance in the data. Principal components with larger eigenvalues represent directions of greater variance and hold more significant information. Sorting allows us to focus on the most informative components and reduce dimensionality by discarding those with lower variance, simplifying the data while retaining its essential structure.
 
-#Step five ()
+#Step five (Reduce Dimensionality)
+
+Choose a subset of the most significant principal components and map the original data onto this reduced-dimensional space.
+
+What are 2 positive effects and 2 negative effects of PCA
+2 Positive Effects (Benefits) of PCA:
+
+Dimensionality Reduction: PCA reduces the number of features, making it easier to visualize and process large datasets without losing too much important information. Noise Reduction: By focusing on the most important components, PCA can filter out noise and irrelevant information, improving the performance of machine learning models.
+
+2 Negative Effects (Limitations) of PCA:
+
+Loss of Interpretability: The new principal components are linear combinations of the original features, making it harder to interpret the transformed data in terms of the original variables. Assumption of Linearity: PCA assumes that the data can be represented well in a linear fashion, which may not hold for complex, non-linear datasets.
 
 
 
